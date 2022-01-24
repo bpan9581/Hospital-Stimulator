@@ -1,0 +1,12 @@
+/*Brian Pan 112856241 Recitation 02*/
+
+import java.util.Comparator;
+
+/**
+ * Comparator class for comparing Blood type
+ */
+public class BloodTypeComparator implements Comparator<Patient> {
+    public int compare(Patient o1, Patient o2) {
+        return o1.getBloodType().getBloodType().compareToIgnoreCase(o2.getBloodType().getBloodType());
+    }
+}
